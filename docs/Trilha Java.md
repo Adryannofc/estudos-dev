@@ -28,7 +28,7 @@ Ao concluir a trilha, você terá praticado a escrita de programas Java, a model
 3. **Registre evidências.** Marque cada item quando conseguir demonstrá-lo em código ou explicar o comportamento observado. Guarde o comando de execução, um caso de fronteira e o resultado obtido. Use os modelos locais de nota e exercício em `_templates/`.
 4. **Feche a etapa pela entrega.** Execute-a a partir do terminal, verifique os casos esperados, explique uma decisão e faça uma pequena mudança de requisito. Use o critério indicado em cada etapa para decidir se pode avançar.
 
-**Compatibilidade.** Use o JDK 25 para as leituras, os exercícios e os laboratórios. Recursos em *preview* ficam nas extensões e exigem configuração explícita. [Projeto de exercícios](../exercicios/README.md) · [Suporte LTS](https://www.oracle.com/europe/java/technologies/java-se-support-roadmap.html) · [Alvo de compilação no Maven](https://maven.apache.org/guides/mini/guide-java-target.html)
+**Compatibilidade.** Use o JDK 25 para as leituras, os exercícios e os laboratórios. Recursos em *preview* ficam nas extensões e exigem configuração explícita. [Projeto de exercícios](../estudos-cli/README.md) · [Suporte LTS](https://www.oracle.com/europe/java/technologies/java-se-support-roadmap.html) · [Alvo de compilação no Maven](https://maven.apache.org/guides/mini/guide-java-target.html)
 
 ## Mapa de progressão
 

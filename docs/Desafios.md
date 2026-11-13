@@ -98,3 +98,28 @@ As regras são:
 O desafio desta atividade é criar um algoritmo em linguagem natural que informe o valor final da entrega.
 
 ### Minha resolução  
+  
+  
+# Desafio: conversor de moedas
+
+Você está desenvolvendo um sistema de apoio para uma agência de viagens. Uma das funcionalidades mais solicitadas é um conversor de moedas. O usuário informa um valor em reais (R$) e o sistema precisa mostrar quanto isso representa em dólares (US$), usando uma taxa de câmbio definida pela empresa.
+
+Sua tarefa é criar um algoritmo em linguagem natural que use uma função para fazer essa conversão. A função deve receber o valor em reais e a taxa de câmbio como entrada, e retornar o valor convertido.
+  
+### Minha resolução  
+  
+  
+# Desafio: Simulador de pedidos em uma cafeteria
+
+Você foi contratado por uma cafeteria que deseja automatizar o atendimento no balcão. O sistema deve permitir que o atendente registre os pedidos de cada cliente, calcule o valor total e aplique um desconto de 10% para clientes cadastrados.
+
+O processo deve funcionar da seguinte forma:
+
+- O atendente informa quantos itens o cliente vai pedir.
+- Para cada item, o sistema solicita o nome e o preço.
+- Ao final, o sistema pergunta se o cliente é cadastrado.
+- Se for, aplica o desconto e exibe o valor com desconto.
+- Caso contrário, exibe o valor cheio.
+  
+  
+O desafio consiste em criar um algoritmo que represente essa lógica de forma completa.
