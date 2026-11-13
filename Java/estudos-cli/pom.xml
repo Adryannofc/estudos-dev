@@ -13,9 +13,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- A API do TamboUI ainda muda entre versões: fixe e atualize de propósito. -->
         <tamboui.version>0.7.0</tamboui.version>
+        <junit.version>6.1.3</junit.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- TuiRunner, eventos e tique de animação -->
         <dependency>
             <groupId>dev.tamboui</groupId>
@@ -35,5 +43,16 @@
             <version>${tamboui.version}</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <!-- Versão explícita: o JUnit 6 precisa de um surefire recente para achar os testes -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.6.1</version>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
