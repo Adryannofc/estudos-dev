@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dev.estudos</groupId>
+    <artifactId>estudos-cli</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.release>25</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- A API do TamboUI ainda muda entre versões: fixe e atualize de propósito. -->
+        <tamboui.version>0.7.0</tamboui.version>
+    </properties>
+
+    <dependencies>
+        <!-- TuiRunner, eventos e tique de animação -->
+        <dependency>
+            <groupId>dev.tamboui</groupId>
+            <artifactId>tamboui-tui</artifactId>
+            <version>${tamboui.version}</version>
+        </dependency>
+        <!-- Tabs, Block, Paragraph, Gauge... -->
+        <dependency>
+            <groupId>dev.tamboui</groupId>
+            <artifactId>tamboui-widgets</artifactId>
+            <version>${tamboui.version}</version>
+        </dependency>
+        <!-- Backend de terminal (usa o JLine) -->
+        <dependency>
+            <groupId>dev.tamboui</groupId>
+            <artifactId>tamboui-jline3-backend</artifactId>
+            <version>${tamboui.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
